@@ -575,7 +575,7 @@ public class ImagePickerModule extends ReactContextBaseJavaModule
 
     if (!permissionsGrated)
     {
-      final Boolean dontAskAgain = true;
+      final Boolean dontAskAgain = false;
 
       if (dontAskAgain)
       {
